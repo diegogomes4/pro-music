@@ -48,7 +48,6 @@ h2 {
 #textap p {
   color: #ececec;
   background-color: #a7a7a709;
-
 }
 
 .caixa {
@@ -67,7 +66,6 @@ h2 {
 #display1 {
   display: flex;
   justify-content: space-evenly;
-
 }
 
 .inicio h1,
@@ -92,7 +90,6 @@ p {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-
 }
 
 .conteudo-1 p {
@@ -103,7 +100,6 @@ p {
   margin-top: -10px;
   background: #3332325b;
   color: #f3f2f2;
-
 }
 
 .conteudo-2 {
@@ -173,8 +169,6 @@ p {
   border-radius: 10px;
 }
 
-/*** Efeito Parallax***/
-
 .inicio {
   border-radius: 8px;
   background-image: url(../canvas/Design\ sem\ nome.png);
@@ -198,6 +192,7 @@ footer {
   text-decoration: underline;
 }
 
+.box-social,
 ul,
 li,
 a {
@@ -206,15 +201,15 @@ a {
   text-decoration: none;
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   padding-left: 1px;
 }
 
 .social {
   width: 20px;
+  padding-right: 5px;
 }
-
-#box-social {}
 
 
 @media screen and (max-width: 800px) {

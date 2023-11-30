@@ -18,55 +18,58 @@
         <img src="imagens/LgoDiego01.png" width="50%" />
       </div>
     </header>
-    <!--fim header logo-->
+  </div>
+  <!--fim header logo-->
 
-    <div>
-      <!--inicio nav links-->
-      <nav>
-        <a href="index.html">Destaque</a>
-        <a href="#servicos">Serviços</a>
-        <a href="galeria.html">Fotos</a>
-        <a href="localizacao.html">Localização</a>
-        <a href="contato.html">Contato</a>
-      </nav>
-      <!--fim nav links-->
-    </div>
+  <div>
+    <!--inicio nav links-->
+    <nav>
+      <a href="index.html">Destaque</a>
+      <a href="#servicos">Serviços</a>
+      <a href="galeria.html">Fotos</a>
+      <a href="localizacao.html">Localização</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+    <!--fim nav links-->
+  </div>
 
-    <!--inicio conteudo-1-->
-    <div class="conteudo-1">
-      <div class="contact-form">
-        <h2>Entre em Contato</h2>
-        <form action="#" method="post">
+  <!--inicio conteudo-1-->
+  <div class="conteudo-1">
+    <div class="contact-form">
+      <h2><u>Deixe seu Contato</u></h2>
+      <form class="contact-form">
+
+        <fieldset>
+         
+          <legend>Detalhes de contato</legend>
+
+          <div>
+            <label class="box-label" for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" required autofocus>
+          </div>
+
+          <div>
+            <label class="box-label" for="telefone">Telefone:</label>
+            <input type="number" id="telefone" name="telefone" required="required">
+          </div>
+
+          <div>
+            <label class="box-label" for="email">URL:</label>
+            <input type="url" name="url" id="url" placeholder="ex: https://www...">
+          </div>
+
+          <div>
+            <label class="box-label" for="email">Email:</label>
+            <input type="email" name="email" id="email" required="required">
+          </div>
+
+          <legend>Sexo:</legend>
 
           <fieldset>
-            <legend>Detalhes de contato</legend>
-
-            <div>
-              <label for="nome">Nome:</label>
-              <input type="text" name="nome" id="nome">
-            </div>
-
-            <label for="telefone">Telefone:</label>
-            <input type="tel" id="telefone" name="telefone">
-
-            <div>
-              <label for="email">Email:</label>
-              <input type="text" name="email" id="email">
-            </div>
-
-
-          </fieldset>
-
-          <fieldset>
-            <legend>Sexo</legend>
-
             <div>
               <label>
                 <input class="radio" type="radio" name="sexo" id="M">Masculino
               </label>
-            </div>
-
-            <div>
               <label>
                 <input class="radio" type="radio" name="sexo" id="F">Feminino
               </label>
@@ -74,54 +77,55 @@
 
           </fieldset>
 
-          <label for="estado">Estado:</label>
-          <select id="estado" name="estado" required>
-            <option value="AC">Acre</option>
-            <option value="AL">Alagoas</option>
+          <div class="box-estado">
+            <label for="estado">Estado:</label>
+            <select id="estado" name="estado" required="required">
+              <option value="AC">Acre</option>
+              <option value="AL">Alagoas</option>
+            </select>
+          </div>
 
-            <fieldset>
-              <legend>Comentários</legend>
-              <div>
-                <label for="mensagem">Mensagem:</label>
-                <textarea name="mensagem" id="mensagem" placeholder="Seu endereço de e-mail" required></textarea>
-              </div>
-            </fieldset>
+        </fieldset>
 
+        <fieldset>
+          <legend>Comentários</legend>
+          <label for="mensagem">Mensagem:</label>
+          <textarea name="mensagem" id="mensagem" placeholder="digite aqui..." rows="6" cols="30" required="required"></textarea>
+        </fieldset>
 
+        <button class="box-botao" type="submit">Enviar Mensagem</button>
+    </div>
 
-            <button type="submit">Enviar Mensagem</button>
-        </form>
+    </form>
 
-        <section class="contato">
+    <section class="contato">
 
-          <h3><u>Entre em Contato</u></h3>
-          <p>Telefone: (63) 98415-2463 Diego pro music</p>
+      <h3><u>Entre em Contato</u></h3>
+      <p>Telefone: (63) 98415-2463 Diego pro music</p>
 
-        </section><!--fim conteudo-2-->
+    </section><!--fim conteudo-2-->
 
-        <div id="box-social">
+    <div class="box-social">
+      <ul>
+        <li> <img src="redes/facebook.png" class="social"> <a href="https://www.facebook.com/DiegoProMusic">facebook</a>
+        </li>
+        <li> <img src="redes/instagram.png" class="social"> <a
+            href="https://www.instagram.com/promusicstudios/">instagram</a></li>
+        <li><img src="redes/youtube.png" class="social"><a
+            href="https://www.youtube.com/channel/UCOSiAd2RdcZacCXhEvh00yw"> youtube</a></li>
+        <li><img src="redes/whatsapp.png" class="social"><a
+            href="https://api.whatsapp.com/send/?phone=5563984152463&text&type=phone_number&app_absent=0">
+            whatsapp</a>
+        </li>
+      </ul>
+    </div>
 
-          <ul>
-            <li> <img src="redes/facebook.png" class="social"> <a
-                href="https://www.facebook.com/DiegoProMusic">facebook</a>
-            </li>
-            <li> <img src="redes/instagram.png" class="social"> <a
-                href="https://www.instagram.com/promusicstudios/">instagram</a></li>
-            <li><img src="redes/youtube.png" class="social"><a
-                href="https://www.youtube.com/channel/UCOSiAd2RdcZacCXhEvh00yw"> youtube</a></li>
-            <li><img src="redes/whatsapp.png" class="social"><a
-                href="https://api.whatsapp.com/send/?phone=5563984152463&text&type=phone_number&app_absent=0">
-                whatsapp</a>
-            </li>
-          </ul>
+    <footer>
+      <p>&copy; 2024 - Diego Pro-Music</p>
+    </footer>
 
-        </div>
-
-        <footer>
-          <p>&copy; 2024 - Diego Pro-Music</p>
-        </footer>
-      </div>
-      <!--fim container-->
+  </div>
+  <!--fim container-->
 </body>
 
 </html>

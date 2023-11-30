@@ -7,9 +7,11 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-label {
+.box-label {
     margin-bottom: 8px;
     color: #555;
+    width: 65px;
+    display: inline-block;
 }
 
 input,
@@ -18,6 +20,8 @@ textarea {
     margin-bottom: 16px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    resize: none;
+
 }
 
 button {
@@ -34,5 +38,21 @@ button:hover {
 }
 
 form {
+    border: 1px solid rgba(117, 114, 114, 0.562);
     display: flex;
-    flex-direction: column;}
+    flex-direction: column;
+}
+
+.box-estado {
+
+    padding: 10px;
+}
+
+.box-botao {
+    margin: 10px;
+}
+
+fieldset {
+
+    margin-top: 10px;
+}
