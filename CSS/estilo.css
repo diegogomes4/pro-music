@@ -26,8 +26,9 @@ nav a {
   display: block;
   color: white;
   text-align: center;
-  padding: 15px 30px;
+  padding: 25px 35px;
   text-decoration: none;
+  font-size: 25px;
 }
 
 nav a:hover {
@@ -161,13 +162,14 @@ p {
 }
 
 #destaque-imagem {
+  margin-bottom: -5px;
   width: 45%;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 #imagem-pod1 {
   width: 75%;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 /*** Efeito Parallax***/
