@@ -26,10 +26,12 @@ nav a {
   display: block;
   color: white;
   text-align: center;
-  padding: 25px 35px;
+  padding: 15px 35px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 30px;
 }
+
+
 
 nav a:hover {
   background-color: #ddd;
@@ -198,10 +200,14 @@ footer {
 
 
 
+
 @media screen and (max-width: 800px) {
   #display1 {
     flex-direction: column-reverse;
     align-items: center;
+  } 
+  nav a {
+    font-size:medium;
   }
 
 }
