@@ -189,6 +189,12 @@ p {
 /***popup***/
 
 
+footer {
+  color: #ddd;
+  text-align: center;
+}
+
+
 
 @media screen and (max-width: 800px) {
   #display1 {
