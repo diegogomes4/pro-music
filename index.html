@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Estúdio de Gravação</title>
+  <link rel="stylesheet" type="text/css" href="CSS/estilo.css" />
+  <link rel="stylesheet" type="text/css" href="CSS/normalize.css" />
+  <link rel="stylesheet" type="text/css" href="CSS/back_top.css">
+  <!--[if lt IE 9
+      ]><script src="https://cdn.es.gov.br/scripts/extensions/html5shiv/3.7.2/html5shiv.min.js"></script
+    ><![endif]-->
+</head>
+
+<body>
+  <!--começo container-->
+  <div id="container">
+    <header>
+      <!--começo header logo-->
+      <div>
+        <img src="imagens/LgoDiego01.png" width="50%" />
+      </div>
+    </header>
+    <!--fim header logo-->
+
+    <!--inicio nav links-->
+    <nav>
+      <a href="index.html">Destaque</a>
+      <a href="servicos.html">Serviços</a>
+      <a href="galeria.html">Fotos</a>
+      <a href="localizacao.html">Localização</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+    <!--fim nav links-->
+
+    <!--inicio conteudo-1-->
+    <div class="conteudo-1">
+      <div id="textap">
+        <h1>Pro tools HD</h1>
+        <p>
+          Gravamos seu projeto em <strong>protools HD </strong>com a melhor
+          qualide que você merece
+        </p>
+      </div>
+
+      <div class="inicio">
+        <img id="destaque-imagem" src="estudio/IMG1.jpg" />
+      </div>
+      <div id="display1"> <!--inicio três bolas-->
+        <div class="caixa">
+          <h1>Bora<br>gravar?</h1>
+          <p> Venha gravar o seu projeto com a gente</p>
+        </div>
+
+        <div class="caixa">
+          <h1>Onde começar?</h1>
+          <p> Vamos monstrar o passo a passo de como iniciar seu projeto</p>
+        </div>
+
+        <div class="caixa">
+          <h1>E as musicas?
+          </h1>
+          <p> saiba escolher as melhores muisca que combina com você</p>
+        </div>
+      </div> <!--fim três bolas-->
+    </div>
+    <!--fim conteudo-1-->
+
+    <div class="conteudo-2">
+      <!--inicio conteudo-2-->
+      <h2>Comemoração do 13° aniversário</h2>
+      <p>
+        Diego Pro Music Celebra 13 Anos de Excelência Musical em Porto
+        Nacional, Diego Pro Music, e um estúdio de produção musical inovador
+        em Porto Nacional, Desde o seu início em 2010, Diego Pro Music tem
+        sido uma força motriz no cenário musical local, oferecendo serviços de
+        produção de alta qualidade, gravação e mixagem para artistas locais e
+        regionais. O estúdio tem sido um catalisador para o crescimento da
+        cenario musical em porto e região, fornecendo um ambiente propício
+        para o desenvolvimento de talentos emergentes.<br /><br />Ao longo dos
+        anos, Diego Pro Music conquistou uma reputação distinta pela sua
+        abordagem inovadora e compromisso com a qualidade sonora.Sob a
+        liderança do fundador Diego, o estúdio continua a evoluir, adotando as
+        mais recentes tecnologias e técnicas de produção para atender às
+        demandas em constante mudança da indústria musical. <br /><br />Diego,
+        fundador e produtor principal, expressou gratidão aos talentosos
+        artistas locais que escolheram o estúdio para dar vida às suas visões
+        musicais.Sempre destaca o compromisso contínuo do estúdio em
+        proporcionar uma experiência única e personalizada para cada
+        cliente.<br /><br />"Estamos emocionados por atingir este marco
+        significativo de 13 anos. Ao longo da nossa jornada, testemunhamos o
+        crescimento notável do cenario musical em Porto Nacional e além. Nosso
+        objetivo é continuar a ser um catalisador para o talento local e
+        fornecer serviços de produção musical que elevem o padrão
+        artístico."<br /><br />Além disso, o estúdio está animado com os
+        projetos futuros e parcerias que continuarão a solidificar sua posição
+        como um dos principais estúdios de produção musical em Tocantins.
+      </p>
+    </div>
+    <!--fim conteudo-2-->
+
+    <div class="conteudo-3" >
+      <!--inicio conteudo-3-->
+      <h1>Venha fazer parte desse show</h1>
+      <p>Grave seu conteudo com a melhor qualidade para redes sociais</p>
+      <div>
+        <img id="imagem-pod1" src="estudio/sala_estudio.jpg" width="100%" />
+      </div>
+    </div>
+    <!--fim conteudo-3-->
+
+   <!-- Seu conteúdo aqui -->
+
+<button onclick="scrollToTop()" id="btnTopo" title="Voltar ao Topo">Subir</button>
+
+<script>
+    window.onscroll = function() { scrollFunction() };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("btnTopo").style.display = "block";
+        } else {
+            document.getElementById("btnTopo").style.display = "none";
+        }
+    }
+
+    function scrollToTop() {
+        document.body.scrollTop = 0; // Para navegadores da web
+        document.documentElement.scrollTop = 0; // Para IE
+    }
+</script>
+    
+    <section class="contato">
+      <h3>Entre em Contato</h3>
+      <p>Informações de contato e formulário de contato.</p>
+    </section>
+    <!--fim conteudo-2-->
+  </div>
+  <!--fim container-->
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Estúdio de Gravação</title>
+  <link rel="stylesheet" type="text/css" href="CSS/estilo.css" />
+  <link rel="stylesheet" type="text/css" href="CSS/contato.css" />
+</head>
+
+<body>
+  <!--começo container-->
+  <div id="container">
+    <header>
+      <!--começo header logo-->
+      <div>
+        <img src="imagens/LgoDiego01.png" width="50%" />
+      </div>
+    </header>
+    <!--fim header logo-->
+
+    <div>
+      <!--inicio nav links-->
+      <nav>
+        <a href="index.html">Destaque</a>
+        <a href="#servicos">Serviços</a>
+        <a href="galeria.html">Fotos</a>
+        <a href="localizacao.html">Localização</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+      <!--fim nav links-->
+    </div>
+
+    <!--inicio conteudo-1-->
+    <div class="conteudo-1">
+      <div class="contact-form">
+        <h2>Entre em Contato</h2>
+        <form action="#" method="post">
+
+          <fieldset>
+            <legend>Detalhes de contato</legend>
+
+            <div>
+              <label for="nome">Nome:</label>
+              <input type="text" name="nome" id="nome">
+            </div>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone">
+
+            <div>
+              <label for="email">Email:</label>
+              <input type="text" name="email" id="email">
+            </div>
+
+            
+          </fieldset>
+
+          <fieldset>
+            <legend>Sexo</legend>
+
+            <div>
+              <label>
+                <input class="radio" type="radio" name="sexo" id="M">Masculino
+              </label>
+            </div>
+
+            <div>
+              <label>
+                <input class="radio" type="radio" name="sexo" id="F">Feminino
+              </label>
+            </div>
+
+          </fieldset>
+                    
+          <label for="estado">Estado:</label>
+          <select id="estado" name="estado" required>
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+
+            <fieldset>
+              <legend>Comentários</legend>
+              <div>
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="mensagem" id="mensagem" placeholder="Seu endereço de e-mail" required></textarea>
+              </div>
+            </fieldset>
+
+
+
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+      </div>
+      <section class="contato">
+        <h3>Entre em Contato</h3>
+        <p>Informações de contato e formulário de contato.</p>
+      </section>
+      <!--fim conteudo-2-->
+    </div>
+    <!--fim container-->
+
+  </div>
+  <!--fim container-->
+</body>
+
+</html>
