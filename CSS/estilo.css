@@ -160,7 +160,6 @@ p {
   background-color: #000000;
   color: white;
   text-align: center;
-  padding: 2em 0;
 }
 
 #destaque-imagem {
@@ -190,24 +189,42 @@ p {
   border-radius: 20px;
 }
 
-/***popup***/
-
-
 footer {
+
   color: #ddd;
   text-align: center;
+  background-color: #42424217;
+  padding: 3px;
+  text-decoration: underline;
 }
 
+ul,
+li,
+a {
+  margin: 2px;
+  color: #ddd;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding-left: 1px;
+}
 
+.social {
+  width: 20px;
+}
+
+#box-social {}
 
 
 @media screen and (max-width: 800px) {
   #display1 {
     flex-direction: column-reverse;
     align-items: center;
-  } 
+  }
+
   nav a {
-    font-size:medium;
+    font-size: medium;
   }
 
 }
