@@ -18,6 +18,7 @@ header {
 nav {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 nav a {
@@ -172,7 +173,6 @@ p {
 /*** Efeito Parallax***/
 
 .inicio {
-  margin: 10px;
   border-radius: 8px;
   background-image: url(../canvas/Design\ sem\ nome.png);
   background-size: cover;
