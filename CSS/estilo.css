@@ -3,25 +3,28 @@ body {
   margin: 0;
   padding: 0;
   background-color: #000000;
-  height: 100%;
 }
 
+
 header {
+  padding: 15px 0;
   text-align: center;
   background-image: url(../imagens/BackCapa\ 05.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 nav {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  background: #1a1a1a;
 }
 
 nav a {
   display: block;
   color: rgb(236, 234, 234);
+
   padding: 15px 35px;
   font-size: 30px;
 }
@@ -180,8 +183,11 @@ a {
 
 @media screen and (max-width: 800px) {
   #display1 {
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
+    display: flex;
+
+
   }
 
   nav a {

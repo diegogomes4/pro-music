@@ -1,37 +1,23 @@
-.gallery {
-  width:100%; 
-	float:left; 
-	margin-bottom:4%; 
-	background:#fff; 
-	box-shadow: 1px 0px 1.2px 0px #e3e3e3; 
-	border-radius:3px; 
-	padding:0.5em;
-	transition:0.7s; 
+#box-galeria {
+  display: flex;
 }
 
-.box-foto:hover { background-color:#333333; }
+.gallery {
+  padding: 0.5em;
+  transition: 0.7s;
+}
 
 .image {
-
   margin: 10px;
   overflow: hidden;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.zoom {
-  width: 100%;
-  height: auto;
-  display: block;
-  transition: transform 0.3s ease-in-out;
 }
 
 .image:hover img {
   transform: scale(1.1);
 }
 
-#box-galeria{
-
-  width:100%; 
-	float:left; 
+.zoom {
+  width: 100%;
+  transition: transform 0.3s ease-in-out;
 }

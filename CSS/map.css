@@ -1,22 +1,14 @@
-
-
-#container-map1{
-
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
+#container-map1 {
+    border: 3px solid rgb(241, 241, 241);
+    display: inline-flex;
 }
 
-#body-map{
-    
-    justify-content:center;
-    align-items: 100vh;
-    background: #262626;
-
+.conteudo-1 h1 {
+    color: rgb(189, 189, 189);
 }
 
-#mapa1 iframe{
+
+#mapa1 iframe {
     width: 100%;
     height: 100%;
 }
