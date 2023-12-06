@@ -21,7 +21,6 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: none;
-
 }
 
 button {
@@ -44,7 +43,6 @@ form {
 }
 
 .box-estado {
-
     padding: 10px;
 }
 
@@ -53,6 +51,9 @@ form {
 }
 
 fieldset {
-
     margin-top: 10px;
+}
+
+.contato h3 {
+    text-transform: uppercase;
 }
