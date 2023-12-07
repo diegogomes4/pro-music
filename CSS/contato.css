@@ -57,3 +57,24 @@ fieldset {
 .contato h3 {
     text-transform: uppercase;
 }
+
+#sexo label {
+    padding: 5px;
+}
+
+#sexo legend {
+    margin: 1px;
+}
+
+.radio {
+    margin: 5px;
+}
+
+.box-estado legend {
+    margin: 10px;
+}
+
+#comentario label {
+    display: block;
+    margin: 10px;
+}

@@ -2,20 +2,16 @@
     color: rgb(189, 189, 189);
 }
 
-#contato-l {
-    display:flex;
+#box-loca {
+    display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
- }
+}
 
 #map {
     width: 700px;
     height: 400px;
     border-radius: 4px;
-}
-
-#foto-praca {
-    display: block;
 }
 
 #foto-praca img {

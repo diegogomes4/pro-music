@@ -1,7 +1,5 @@
 #galeria {
-
-  border: 1px solid red;
-
+ 
 }
 
 
@@ -10,26 +8,21 @@ h4 {
   text-align: center;
   text-transform: uppercase;
   padding: 10px;
-
 }
 
 .gallery {
   padding: 0.5em;
   transition: 0.7s;
-
 }
 
 .image {
   margin: 10px;
   overflow: hidden;
   border-radius: 8px;
-  border: 1px solid red;
-}
+  }
 
 .image:hover img {
-
   transform: scale(1.1);
-
 }
 
 .zoom {
