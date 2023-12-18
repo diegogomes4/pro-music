@@ -2,10 +2,20 @@
     max-width: 400px;
     margin: auto;
     padding: 20px;
+    padding-top: 10px;
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+.contact-form fieldset {
+    border-radius: 5px;
+}
+
+.contact-form h2 {
+    margin: 25px;
+}
+
 
 .box-label {
     margin-bottom: 8px;
@@ -55,6 +65,8 @@ fieldset {
 }
 
 .contato h3 {
+    margin-top: 80px;
+    padding: 2px;
     text-transform: uppercase;
 }
 

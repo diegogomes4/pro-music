@@ -10,36 +10,36 @@
 </head>
 
 <body>
-  <header>
+  <div id="logo"><!--logo-->
 
-    <div id="logo"><!--logo-->
-      <img src="imagens/LgoDiego01.png" width="50%" />
-    </div>
-    <nav>
-      <ul id="links-nav">
-        <li><a href="index.html">Destaque</a></li>
-        <li> <a href="servicos.html">Serviços</a></li>
-        <li><a href="galeria.html">Fotos</a></li>
-        <li><a href="localizacao.html">Localização</a></li>
-        <li><a href="contato.html">Contato</a></li>
-      </ul>
-    </nav>
+    <img src="imagens/LgoDiego01.png" />
 
-  </header>
+  </div>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Destaque</a></li>
+      <li> <a href="servicos.html">Serviços</a></li>
+      <li><a href="galeria.html">Fotos</a></li>
+      <li><a href="localizacao.html">Localização</a></li>
+      <li><a href="contato.html">Contato</a></li>
+    </ul>
+  </nav>
 
   <!--inicio conteudo-1-->
   <div class="conteudo-1">
     <div class="contact-form">
       <h2><u>Deixe seu Contato</u></h2>
-      <form class="contact-form">
 
+      <form class="contact-form" action="https://sys4soft.com/udemy/forms/index.php" method="post">
+        
         <fieldset>
 
           <legend>Detalhes de contato</legend>
 
           <div>
             <label class="box-label" for="nome">Nome:</label>
-            <input type="text" name="nome" id="nome" required autofocus>
+            <input type="text" name="nome" id="nome" required autofocus minlength="5" maxlength="35">
           </div>
 
           <div>
@@ -61,14 +61,13 @@
           <div id="sexo">
             <legend>Sexo:</legend>
             <label>
-              <input class="radio" type="radio" name="sexo" id="M">Masculino
+
+              <input class="radio" type="radio" name="sexo" id="M" value="Masculino" checked>Masculino
             </label>
             <label>
-              <input class="radio" type="radio" name="sexo" id="F">Feminino
+              <input class="radio" type="radio" name="sexo" id="F" value="Feminino">Feminino
             </label>
           </div>
-
-
 
           <div class="box-estado">
             <legend>Estado:</legend>
@@ -113,7 +112,7 @@
           <textarea name="mensagem" id="mensagem" placeholder="digite aqui..." rows="6" cols="30"
             required="required"></textarea>
         </fieldset>
-
+        <input  class="box-botao" type="reset" value="Limpar" accesskey="1">
         <button class="box-botao" type="submit">Enviar Mensagem</button>
     </div>
 
@@ -142,7 +141,7 @@
     </div>
 
     <footer>
-      <p>&copy; 2024 - Diego Pro-Music - Todos os direitos reservados</p>
+      <p>&copy; 2024 - Diego Pro-Music | &reg; Todos os direitos reservados.</p>
     </footer>
 
   </div>
