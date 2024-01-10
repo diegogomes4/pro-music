@@ -7,7 +7,6 @@ const galery = [
     "galery/img6.jpg"]
 
 let currentIndex = 0
-//let voltarIndex = 6
 
 
 let galeryElement = document.getElementById('image')
