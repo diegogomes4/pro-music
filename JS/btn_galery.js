@@ -21,17 +21,15 @@ buttonElement.addEventListener('click', function () {
         currentIndex = 0
     }
     galeryElement.src = galery[currentIndex]
-    console.log(currentIndex)
 })
 
 
 voltarElement.addEventListener('click', function () {
     currentIndex--
     if (currentIndex < 0) {
-        currentIndex = galery.length -1
+        currentIndex = galery.length - 1
     }
     galeryElement.src = galery[currentIndex]
-    console.log(currentIndex)
 
 })
 

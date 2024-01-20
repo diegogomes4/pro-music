@@ -25,7 +25,7 @@
 
     <nav>
       <ul>
-        <li><a href="index.html">Destaque</a></li>
+        <li><a href="index.html">Início</a></li>
         <li> <a href="servicos.html">Serviços</a></li>
         <li><a href="galeria.html">Fotos</a></li>
         <li><a href="localizacao.html">Localização</a></li>
@@ -52,18 +52,24 @@
 
         <div class="caixa">
           <h1>Bora<br>gravar?</h1>
-          <p> Venha gravar o seu projeto com a gente</p>
+          <a href="contato.html" class="box-box">
+            <p> Venha gravar o seu projeto com a gente</p>
+          </a>
         </div>
 
         <div class="caixa">
           <h1>Onde começar?</h1>
-          <p> Vamos monstrar o passo a passo de como iniciar seu projeto.</p>
+          <a href="#" class="box-box">
+            <p>Monstrarei o passo a passo de como iniciar seu projeto.</p>
+          </a>
         </div>
 
         <div class="caixa">
           <h1>E as musicas?
           </h1>
-          <p> saiba escolher as melhores muisca que combina com você.</p>
+          <a href="#" class="box-box">
+            <p> Escolha as musica que combina com você.</p>
+          </a>
         </div>
       </div> <!--fim três bolas-->
     </div>
@@ -114,25 +120,6 @@
 
     <!-- Seu conteúdo aqui -->
 
-    <button onclick="scrollToTop()" id="btnTopo" title="Voltar ao Topo">Subir</button>
-
-    <script>
-      window.onscroll = function () { scrollFunction() };
-
-      function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-          document.getElementById("btnTopo").style.display = "block";
-        } else {
-          document.getElementById("btnTopo").style.display = "none";
-        }
-      }
-
-      function scrollToTop() {
-        document.body.scrollTop = 0; // Para navegadores da web
-        document.documentElement.scrollTop = 0; // Para IE
-      }
-    </script>
-
     <section class="contato">
 
       <h3><u>Entre em Contato</u></h3>
@@ -161,6 +148,26 @@
     </footer>
 
   </div><!--fim container-->
+
+
+  <button onclick="scrollToTop()" id="btnTopo" title="Voltar ao Topo">Subir</button>
+
+  <script>
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("btnTopo").style.display = "block";
+      } else {
+        document.getElementById("btnTopo").style.display = "none";
+      }
+    }
+
+    function scrollToTop() {
+      document.body.scrollTop = 0; // Para navegadores da web
+      document.documentElement.scrollTop = 0; // Para IE
+    }
+  </script>
 
 </body>
 

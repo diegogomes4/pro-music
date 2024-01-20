@@ -35,7 +35,7 @@ nav a:hover {
 
 #textap h1 {
   margin-top: 0;
-  padding-top: 0;
+  padding-top: 40px;
 }
 
 h1,
@@ -46,8 +46,9 @@ h2 {
 
 #textap h1,
 #textap p {
-
+  align-items: center;
   color: #ececec;
+
 }
 
 .caixa {
@@ -63,9 +64,22 @@ h2 {
   border-radius: 100%;
 }
 
+.caixa a p:hover {
+  text-align: center;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.518);
+  border-radius: 10px;
+  font-weight: 700;
+  align-items: center;
+}
+
+.caixa h1 {
+  margin-bottom: 0;
+}
+
 #display1 {
   display: flex;
   justify-content: space-evenly;
+  padding-bottom: 40px;
 }
 
 .inicio h1,
@@ -126,6 +140,7 @@ p {
 }
 
 .contato {
+  padding-top: 40px;
   color: rgb(240, 237, 237);
   text-align: center;
 }
@@ -179,7 +194,8 @@ a {
 
 .social {
   width: 20px;
-  padding-right: 5px;
+  padding: 0 5px 5px;
+  border-radius: 30px;
 }
 
 
