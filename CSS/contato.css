@@ -16,6 +16,10 @@
     margin: 25px;
 }
 
+.box-contato {
+    padding: 50px;
+    padding-bottom: 0;
+}
 
 .box-label {
     margin-bottom: 8px;
@@ -66,8 +70,7 @@ fieldset {
 }
 
 .contato h3 {
-    margin-top: 80px;
-    padding: 2px;
+    margin-top: 10px;
     text-transform: uppercase;
 }
 
